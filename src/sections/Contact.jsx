@@ -25,16 +25,16 @@ const Contact = () => {
         }
         emailjs.send(serviceId, templateId, templateParams, publicKey)
         .then((response)=>{
-            alert('Email sent successfully');
             setRecruiterDetail({
                 name: '',
                 email: '',
                 message: ''
             })
             console.log(response.text,' : ', response.status);
+            alert('Email sent successfully');
         }).catch((error)=>{
-            alert('Facing error to reach Sunny');
             console.error(error.text, ' : ',error.status);
+            alert('Facing error to reach Sunny');
         })
     }
 
