@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+strong{
+  font-family: monospace;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.295);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.app{
+  background: linear-gradient(#1c1c1c,#666666);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.854);
+}
+
+
+
+
+.swiper-slide {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.372);
+}
+.swiper-slide-active {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.454); /* Stronger shadow for active slide */
+  transition: box-shadow 0.3s ease;
+}
+
+
+.page{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #151515, #282828,#5b5b5b,#282828,#151515);
+}
+
+
+.skill-logo>*:hover{
+  cursor: default;
+}
+
+.skill-logo>span{
+  font-family: monospace;
+}
+
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+} */
+
+
+.scroll-none::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
