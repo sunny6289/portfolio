@@ -14,7 +14,7 @@ const Hero = () => {
                 <div className="name-work flex flex-col max-w-fit mx-auto justify-center gap-3">
                     <h1 className='text-4xl md:text-6xl xl:text-8xl font-bold max-w-fit mx-auto'>Sunny mishra</h1>
                     <p className='text-2xl md:text-3xl xl:text-4xl font-medium tracking-wider max-w-fit mx-auto'>I'm a frontend developer</p>
-                    <a className='flex gap-2 items-center bg-black rounded-md max-w-fit px-3 py-2 cursor-pointer mx-auto active:scale-95' href="/Sunny_Mishra_Resume.pdf" download="Sunny_Resume_New_2.pdf" title='Download Resume'><FaDownload /><span>Download Resume</span></a>
+                    <a className='flex gap-2 items-center bg-black rounded-md max-w-fit px-3 py-2 cursor-pointer mx-auto active:scale-95' href="/Sunny_Resume_New_2.pdf" download="Resume.pdf" title='Download Resume'><FaDownload /><span>Download Resume</span></a>
                     <p className='flex items-center gap-4 select-none text-2xl md:text-4xl max-w-fit mx-auto cursor-default bg-white px-3 py-2 rounded-md'>
                         <a href="https://www.linkedin.com/in/the-sunny-mishra/" target='_blank' title='LinkedIn'><PiLinkedinLogoBold className='cursor-pointer text-[#1469C7] relative transition-all md:hover:bottom-0.5' /></a>
                         <a href="https://github.com/sunny6289" target='_blank' title='Github'><VscGithub className='cursor-pointer text-[#000] relative transition-all md:hover:bottom-0.5' /></a>
